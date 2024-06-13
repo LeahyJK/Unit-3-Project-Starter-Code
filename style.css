@@ -4,7 +4,8 @@
 .option-one-screen, 
 .option-two-screen, 
 .option-one-end, 
-.option-two-end  {
+.option-two-end,
+.option-two-end-2 {
    display:none;
 }
 
@@ -81,8 +82,9 @@ button:hover {
 .option-one-screen,
 .option-two-screen,
 .option-one-end,
-.option-two-end {
-    background-color: #fff;
+.option-two-end, 
+.option-two-end-2 {
+    background-color: black;
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 10px;
@@ -94,17 +96,20 @@ button:hover {
 .option-one-screen img,
 .option-two-screen img,
 .option-one-end img,
-.option-two-end img {
+.option-two-end img, 
+.option-two-end-2 {
     max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+    height: 300px;
+    margin-bottom: 20px;
 }
 
 /* Style the text in the screens */
 .option-one-screen h1,
 .option-two-screen h1,
 .option-one-end h1,
-.option-two-end h1 {
+.option-two-end h1,
+.option-two-end-2 {
     font-size: 20px;
     margin-bottom: 20px;
+    color: white;
 }
