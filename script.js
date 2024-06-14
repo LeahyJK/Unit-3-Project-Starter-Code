@@ -1,6 +1,4 @@
 let storyOpening = document.querySelector(".story-opening");
-let sOImg = document.querySelector(".story-opening img")
-let sOH = document.querySelector(".story-opening h1")
 let btn1 = document.querySelector(".option-one");
 let opt1Screen = document.querySelector(".option-one-screen");
 let btn2 = document.querySelector(".option-two");
@@ -38,8 +36,3 @@ btn2.addEventListener('click', function(){
         btn2.innerHTML='Continue'
     });
 });
-
-
-sOImg.addEventListener('mouseOver', function(){
-    sOH.style.visibility='visible'
-})
