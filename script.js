@@ -6,6 +6,7 @@ let btn2 = document.querySelector(".option-two");
 let opt1End = document.querySelector('.option-one-end')
 let opt2Screen = document.querySelector(".option-two-screen")
 let opt2End = document.querySelector('.option-two-end')
+let title = document.querySelector('.title')
 
 
 
@@ -42,19 +43,23 @@ btn2.addEventListener('click', function(){
 btn2.addEventListener("mouseover", function(){
     storyOpening.style.backgroundColor='green'
     storyOpeningH1.style.color='black'
+    title.style.color='black'
 
     btn2.addEventListener("mouseout", function(){
         storyOpening.style.backgroundColor='black'
         storyOpeningH1.style.color='white'
+        title.style.color='chartreuse'
     });
 });
 
 btn1.addEventListener("mouseover", function(){
     storyOpening.style.backgroundColor='white'
     storyOpeningH1.style.color='black'
+    title.style.color='black'
 
     btn1.addEventListener("mouseout", function(){
         storyOpening.style.backgroundColor='black'
         storyOpeningH1.style.color='white'
+        title.style.color='chartreuse'
     });
 });
